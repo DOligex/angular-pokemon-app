@@ -1,7 +1,7 @@
 import { POKEMONS } from './../../../shared/mock-pokemon';
 import { Component, OnInit } from '@angular/core';
 
-import { Pokemon } from '../../../shared/pokemon';
+import { Pokemon } from '../../../shared/class/pokemon';
 
 @Component({
   selector: 'app-pokemon',

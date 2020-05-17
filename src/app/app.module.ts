@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { SectionFromOneComponent } from './components/learning/section-from-one/section-from-one.component';
 import { SectionFromSevenComponent } from './components/learning/section-from-seven/section-from-seven.component';
+import { BorderCardDirective } from '../shared/directives/border-card.directive';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SectionFromSevenComponent } from './components/learning/section-from-se
     PokemonComponent,
     SectionFromOneComponent,
     SectionFromSevenComponent,
+    BorderCardDirective,
   ],
   imports: [
     BrowserModule,
