@@ -1,0 +1,32 @@
+<h1>Concepts Angular</h1>
+<ul>
+  <li>Préambule</li>
+  <li>Présentation d'Angular</li>
+  <li>Premier pas avec Angular</li>
+  <li>Les composants</li>
+  <li>Les Templates</li>
+</ul>
+
+<h2>{{title}}</h2>
+
+<ul>
+  <li>Bulbizzare</li>
+  <li>Salamèche</li>
+  <li>Carapuce</li>
+</ul>
+
+<button (click)="onClick()">Cliquer ici !</button>
+
+<input #box type="text" (keyup)="onKey(box.value)">
+<!-- retourne uniquemet les values saisies dans l'input -->
+<p class="p1">{{box.value}}</p>
+<!-- retourne les values saisies dans l'input et passées par la méthode onKey -->
+<p class="p2">{{value}}</p>
+
+<!-- permet de récupérer les values sur la touche entrée -->
+<input #box2 type="text" (keyup.enter)="values=box2.value">
+<p class="p3">{{values}}</p>
+
+<!-- permet de récupérer les values sur la sortie du champ input avec (blur) -->
+<input #box3 type="text" (blur)="valeurs=box3.value">
+<p class="p4">{{valeurs}}</p>
