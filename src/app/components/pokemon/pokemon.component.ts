@@ -12,12 +12,12 @@ export class PokemonComponent implements OnInit {
 
   constructor() { }
 
-	private pokemons: Pokemon[] = null;
+  public pokemons: Pokemon[] = null;
 
-	ngOnInit() {
-		this.pokemons = POKEMONS;
-	}
-	selectPokemon(pokemon: Pokemon) {
-		alert('Vous avez cliqué sur ' + pokemon.name);
-	}
+  ngOnInit() {
+    this.pokemons = POKEMONS;
+  }
+  selectPokemon(pokemon: Pokemon) {
+    alert('Vous avez cliqué sur ' + pokemon.name);
+  }
 }
