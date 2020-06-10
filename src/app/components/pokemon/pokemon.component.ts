@@ -1,7 +1,7 @@
-import { POKEMONS } from './../../../shared/mock-pokemon';
+
 import { Component, OnInit } from '@angular/core';
 
-import { Pokemon } from '../../../shared/class/pokemon';
+
 
 @Component({
   selector: 'app-pokemon',
@@ -12,12 +12,5 @@ export class PokemonComponent implements OnInit {
 
   constructor() { }
 
-  public pokemons: Pokemon[] = null;
-
-  ngOnInit() {
-    this.pokemons = POKEMONS;
-  }
-  selectPokemon(pokemon: Pokemon) {
-    alert('Vous avez cliqué sur ' + pokemon.name);
-  }
+  ngOnInit() { }
 }
