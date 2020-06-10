@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
           if (this.authService.isLoggedIn) {
               // Récupère l'URL de redirection depuis le service d'authentification
               // Si aucune redirection n'a été définis, redirige l'utilisateur vers la liste des pokemons.
-              const redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/pokemon/all';
+              const redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/pokemon/list';
               // Redirige l'utilisateur
               this.router.navigate([redirect]);
           } else {
