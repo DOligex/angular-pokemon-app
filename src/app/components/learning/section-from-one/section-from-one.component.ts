@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Pokemon } from '../../../../shared/class/pokemon';
-import { POKEMONS } from '../../../../shared/mock-pokemon';
+import { Pokemon } from '../../../shared/class/pokemon';
+import { POKEMONS } from '../../../shared/mock-pokemon';
 
 @Component({
   selector: 'app-section-from-one',
