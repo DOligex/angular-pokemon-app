@@ -2,6 +2,7 @@ import { User } from './../../shared/class/user';
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../shared/services/auth.service';
 import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-login',
@@ -16,9 +17,13 @@ export class LoginComponent implements OnInit {
 
   model: User = new User();
 
-  constructor(public authService: AuthService, private router: Router) { }
+  constructor(
+    public authService: AuthService,
+    private router: Router,
+    private titleService: Title) { }
+
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.titleService.setTitle('Connexion');
   }
 
   // Informe l'utilisateur sur son authentfication.
