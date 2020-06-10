@@ -1,25 +1,38 @@
+import { LoginRoutingModule } from './components/login/login-routing.module';
+import { InMemoryDataService } from './shared/services/in-memory-data.service';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+
+import { PokemonsModule } from './components/pokemon/pokemons.module';
 
 import { AppComponent } from './app.component';
 import { PokemonComponent } from './components/pokemon/pokemon.component';
-import { SectionFromOneComponent } from './components/learning/section-from-one/section-from-one.component';
-import { SectionFromSevenComponent } from './components/learning/section-from-seven/section-from-seven.component';
-import { BorderCardDirective } from '../shared/directives/border-card.directive';
+import { PokemonNavbarComponent } from './components/pokemon-navbar/pokemon-navbar.component';
+import { PageNotFoundComponent } from './pages/page-not-found.component';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonComponent,
-    SectionFromOneComponent,
-    SectionFromSevenComponent,
-    BorderCardDirective,
+    PokemonNavbarComponent,
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false}),
+    PokemonsModule,
+    LoginRoutingModule,
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
