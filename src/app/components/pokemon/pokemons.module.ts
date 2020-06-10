@@ -1,3 +1,5 @@
+import { AuthService } from './../../shared/services/auth.service';
+import { AuthGuard } from './../../core/auth.guard';
 import { LoaderComponent } from './loader.component';
 
 import { EditPokemonComponent } from './edit-pokemon.component';
@@ -14,24 +16,30 @@ import { PokemonTypeColorPipe } from '../../shared/pipes/pokemon-type-color.pipe
 import { PokemonsService } from '../../shared/services/pokemons.service';
 import { PokemonFormComponent } from '../forms/pokemon-form/pokemon-form.component';
 import { SearchPokemonComponent } from './search-pokemon/search-pokemon.component';
+import { AddPokemonComponent } from './add-pokemon/add-pokemon.component';
 
 @NgModule({
   imports: [
-      CommonModule,
-      FormsModule,
-      PokemonRoutingModule,
+    CommonModule,
+    FormsModule,
+    PokemonRoutingModule,
   ],
   declarations: [
-      ListPokemonComponent,
-      DetailPokemonComponent,
-      BorderCardDirective,
-      PokemonTypeColorPipe,
-      PokemonFormComponent,
-      EditPokemonComponent,
-      SearchPokemonComponent,
-      LoaderComponent,
+    ListPokemonComponent,
+    DetailPokemonComponent,
+    EditPokemonComponent,
+    AddPokemonComponent,
+    SearchPokemonComponent,
+    PokemonFormComponent,
+    LoaderComponent,
+    BorderCardDirective,
+    PokemonTypeColorPipe,
 
   ],
-  providers: [PokemonsService]
+  providers: [
+    PokemonsService,
+    AuthGuard,
+    AuthService
+  ]
 })
 export class PokemonsModule { }
