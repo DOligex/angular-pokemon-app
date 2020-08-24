@@ -14,6 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/npm/npm-original-wordmark.svg" title="NPM" alt="npm logo" width="30" height="30"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/github/github-original.svg" title="Github" alt="github logo" width="30" height="30"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/git/git-original.svg" title="Git" alt="git logo" width="30" height="30"/> 
+  <img src="https://raw.githubusercontent.com/DOligex/devIcons/306c012206b18ecb891fcba8bf5ba8fe8c644c47/firebase.svg" title="Firebase" alt="Firebase logo" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/apple/apple-original.svg" title="Mac" alt="Apple logo" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/36c6d3ef63c06fe942b62da9303b559d8b4535b3/icons/vscode.svg" title="VSCode" alt="VSCode logo" width="30" height="30"/>
 </p>
