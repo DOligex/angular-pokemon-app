@@ -1,4 +1,4 @@
-<h1><a href="https://doligex-ng9-udemy-pokemon-app.firebaseapp.com/login">Pokemon's application</a></h1>
+<h1><a href="https://DOligex.github.io/angular-pokemon-app/">Pokemon's application</a></h1>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
@@ -14,7 +14,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/npm/npm-original-wordmark.svg" title="NPM" alt="npm logo" width="30" height="30"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/github/github-original.svg" title="Github" alt="github logo" width="30" height="30"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/git/git-original.svg" title="Git" alt="git logo" width="30" height="30"/> 
-  <img src="https://raw.githubusercontent.com/DOligex/devIcons/565d64c36c51fe277b4890b3a4c1f17686355123/firebase.svg" title="Firebase" alt="Firebase logo" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/apple/apple-original.svg" title="Mac" alt="Apple logo" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/36c6d3ef63c06fe942b62da9303b559d8b4535b3/icons/vscode.svg" title="VSCode" alt="VSCode logo" width="30" height="30"/>
 </p>
@@ -48,3 +47,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <h5>Further help</h5>
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+|Tools  | Documentation| 
+|--|--|
+| <img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg" title="Angular" alt="Angularjs logo" width="30" height="30"/>   | [https://angular.io/](https://angular.io/) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/github/github-original.svg" title="Github" alt="github logo" width="30" height="30"/>  | [https://www.npmjs.com/package/angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) |
+| <a href="https://www.udemy.com/user/olivier-darbonville/" target="blank"><img align="center" src="https://raw.githubusercontent.com/DOligex/devIcons/565d64c36c51fe277b4890b3a4c1f17686355123/udemy.svg" title="Udemy" alt="Udemy logo" height="20" width="20" /></a> | [https://www.udemy.com/course/angular-developper-tutoriel-application-typescript/](https://www.udemy.com/course/angular-developper-tutoriel-application-typescript/) |
